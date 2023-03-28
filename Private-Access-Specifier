@@ -1,0 +1,33 @@
+SCOPE IS WITHIN CLASS ONLY IF VARIABLE IS PRIVATE
+
+
+
+package specifiers;
+
+
+ class Test {
+	 public	 static int he=20;
+	 public static int me=30;
+
+
+ int d=he+me;
+ private void k2(){
+	System.out.println("ProtectedAccess");
+	System.out.println();
+	}
+ }
+ 
+ 
+ package specifiers;
+
+public class Privatespecifiers {
+	public static void main(String[] args) {
+		 
+		 Test a =new Test ();
+		 Test t1=new  Test();
+		 
+		
+		System.out.println(a .he);
+		a.k2();
+}
+}
