@@ -1,0 +1,27 @@
+package test22;
+
+public class Test2 {
+	public int hey=20;
+	public void d2() {
+		System.out.println("PRACTICE");
+	}
+}
+
+
+
+
+package specifiers;
+import test22.*;
+public class Publicspecifiers {
+ public static void main(String[] args) {
+	 
+	 Test2 a =new Test2 ();
+	 test22.Test2 t1=new  test22.Test2();
+	 
+	
+	System.out.println(a .hey);
+	a.d2();
+	
+ }
+}
+		
