@@ -1,0 +1,16 @@
+SCOPE IS SAME AS PUBLIC ACCESS SPECIFIER
+
+
+package specifiers;
+
+import test22.Test2;
+
+ class Defaultspecifier {
+ public static void main(String[] args) {
+	 Test a =new Test ();
+	 Test2 t1=new  Test2();
+	 
+	System.out.println(a.he);
+	a.k2();
+}
+}
